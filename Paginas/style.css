@@ -1,0 +1,73 @@
+
+@font-face{
+    font-family: jokerman;
+    src: url(JOKERMAN.ttf);
+}
+
+h1{
+    font-family: jokerman;
+    text-align: center;
+}
+
+p{
+    font-family: comic sans ms;
+    font-size: 18px;
+}
+
+.Table{
+    display: flex;
+    justify-content: center;
+}
+
+.Tablechild{
+    border: 5px solid;
+    border-color: rgb(3,31,92);
+    border-radius: 25px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.Tablechild select{
+    color: rgb(255,0,0);
+    width: 85px;
+}
+
+.Tablechild2{
+    border: 5px solid;
+    border-color: rgb(3,31,92);
+    border-radius: 25px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.Tablechild2 select{
+    color: rgb(0,204,0);
+    width: 85px;
+}
+
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-secondary {
+    background: rgb(66, 184, 221);
+}
+
+.bkggreen{
+    background-color: rgb(178,255,204);
+}
+
+.bkgred{
+    background-color: rgb(255,178,178);
+}
